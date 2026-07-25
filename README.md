@@ -1,4 +1,4 @@
-# macOS Dotfiles
+# macOS Tiling Setup
 
 Конфиг для тайлового окружения на macOS: **AeroSpace** + **Sketchybar** + **JankyBorders**.
 
@@ -54,7 +54,7 @@ brew install --cask font-sf-pro
 ### 3. Клонировать репозиторий
 
 ```bash
-git clone <repo-url> ~/dotfiles
+git clone https://github.com/Yuri211212/aerospace-sketchybar-config.git ~/aerospace-sketchybar-config
 ```
 
 ### 4. Скопировать конфиги
@@ -63,8 +63,8 @@ git clone <repo-url> ~/dotfiles
 mkdir -p ~/.config/sketchybar/items ~/.config/sketchybar/plugins ~/.config/sketchybar/helper
 mkdir -p ~/.config/aerospace
 
-cp -r ~/dotfiles/sketchybar/* ~/.config/sketchybar/
-cp ~/dotfiles/aerospace/aerospace.toml ~/.config/aerospace/
+cp -r ~/aerospace-sketchybar-config/sketchybar/* ~/.config/sketchybar/
+cp ~/aerospace-sketchybar-config/aerospace/aerospace.toml ~/.config/aerospace/
 ```
 
 ### 5. Сделать скрипты исполняемыми
